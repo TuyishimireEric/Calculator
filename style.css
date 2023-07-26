@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url("./images/bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 34px;
+    position: absolute;
+    min-width: 400px;
+    width: 40vw;
+    height: 80vh;
+    padding: 24px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    border: 12px solid #feada6;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.display {
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    border-radius: 8px;
+    height: 90px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    border: 2px solid #feada6;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3rem;
+    color: #0008;
+}
+
+.calculator {
+    opacity: 0.8;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4, auto);
+}
+
+.calculator button {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    height: 9vh;
+    border-radius: 14px;
+    border: 2px solid #feada660;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #feada660;
+}
+
+.calculator .digit {
+    background-color: #e6e9f0;
+    font-weight: 600;
+}
+
+.calculator button:hover {
+    background-color: #feada6;
+}
