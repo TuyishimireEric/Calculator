@@ -28,7 +28,8 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Calculator<a name="about-project"></a>
-Calculator
+The Calculator is a simple web-based tool that performs basic arithmetic operations. It supports addition, subtraction, multiplication, division, and exponentiation. Users can input numerical values and select operators to perform instant calculations. The calculator features decimal functionality and error handling for division by zero. It provides a user-friendly interface with options to clear entries and toggle between positive and negative numbers. A convenient and versatile tool for quick calculations and accurate results.
+![image](https://github.com/TuyishimireEric/Calculator/assets/102757126/79f70caa-7937-4737-9646-465c5713f7a2)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
